@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 2</title>
+<style>
+    div:nth-child(1){
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #first{
+        background-color: #add9e6;
+        width: 100px;
+        display: inline-block;
+    }
+    li{
+        list-style: none;
+        margin-left: -40px;
+        color: #0408d2;
+        cursor: pointer;
+    }
+    li:hover{
+        color:white;
+        background-color: #fea500;
+    }
+    #try{
+        background-color: #d3d3d3;
+        color: #1e13cc;
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+    }
+    #try div {
+        width: 30%;
+        text-align: center;
+    }
+    .border{
+        border-right: 1px solid blue;
+    }
+    .change:hover{
+        background-color:#808080;
+        color:white;
+    }
+    div{
+        cursor: pointer;
+    }
+    
+    
+</style>
+</head>
+<body>
+    <h3>Vertical Navigation Bar</h3>
+    
+    <div id="first">
+    <ul>
+        <li>Home</li>
+        <li>Java</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Bootstrap</li>
+    </ul>
+    </div>  
+
+    <h3>Horizontal Navigation Bar</h3>
+    <div id="try">
+        <div class="border change">Home</div>
+        <div class="border change">Java</div>
+        <div class="border change">HTML</div>
+        <div class="border change">CSS</div>
+        <div class="change"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 4</title>
+<style>
+    div{
+        height: 8vh;
+        cursor: pointer;
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        border-radius:10px;
+        position: relative;
+        left: -97%;
+        transition: all 0.8s ease;
+        
+    }
+    div:nth-child(1){
+        background-color: #04a96d;
+    }
+    div:nth-child(2){
+        background-color: #2196f3;
+    }
+    div:nth-child(3){
+        background-color: #f44236;
+    }
+    div:nth-child(4){
+        background-color: #555555;
+    }
+    li{
+        list-style: none;
+        display: none;
+    }
+    div ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    div:hover{
+        left:0;  
+    } 
+    div:hover ul li{
+        display: block;
+    }  
+    
+</style>
+
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </div>
+</body>
+</html>
